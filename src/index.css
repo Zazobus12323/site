@@ -1,0 +1,69 @@
+.Head {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:space-around;
+    grid-gap: 150px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 120%;
+  }
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:space-around;
+    grid-gap: 100px;
+    align-items: flex-start;
+    font-size: 120%
+}
+.logo{
+    display: flex;
+    margin-right: 20%;
+}
+.spisok{
+    display: flex;
+    justify-content:center;
+    margin-right: 10%;
+    white-space: nowrap
+}
+.top{
+    display: flex;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 20%;
+    font-size: 130%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0%;
+}
+.Up1{
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+}
+.Up2{
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+
+}
+input::placeholder {
+    color: black;
+}
+.avtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.myButtons{
+    
+}
+.ul1{
+    
+}
