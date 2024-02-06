@@ -19,7 +19,7 @@
 }
 .logo{
     display: flex;
-    margin-right: 20%;
+    align-items: self-start;
 }
 .spisok{
     display: flex;
@@ -78,9 +78,8 @@ input::placeholder {
 }
 .information{
     display: flex;
-    align-items: flex-end;
-    width: 80%;
-    height: 30%;
+    align-items: center;
+
     font-size: 170%;
 }
 
