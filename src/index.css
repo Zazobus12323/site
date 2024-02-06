@@ -29,19 +29,23 @@
 }
 .top{
     display: flex;
-    
+    background-image: url(./icons/Top_pic.jpg);
+    background-size: cover;
+    color: aliceblue;
 }
 .left{
     display: flex;
     flex-direction: column;
-    margin: 5% 20%;
+    margin: 5% 15%;
     font-size: 130%;
 }
+
 .right{
     display: flex;
     flex-direction: column;
-    margin: 5% 0%;
+    margin: 5% 10%;
 }
+
 .Up1{
     font-size: 120%;
     display: flex;
@@ -71,5 +75,12 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.information{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    height: 30%;
+    font-size: 170%;
 }
 
