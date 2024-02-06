@@ -82,4 +82,17 @@ input::placeholder {
 
     font-size: 170%;
 }
+.cell{
+    font-size: 250%;
+}
+.iconCar{
+    width: 40%;
+    height: 40%;
+    vertical-align: middle
+}
+.Vehicles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
