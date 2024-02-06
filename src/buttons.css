@@ -1,4 +1,24 @@
-.car_tipe{
+.car_SUV{
+    background-color: rgb(255, 255, 255);
+    font-size: 150%;
+    width: 18%;
+}
+.car_sportcar{
+    background-color: rgb(99, 99, 99);
+    font-size: 150%;
+    width: 18%;
+}
+.car_business{
+    background-color: rgb(99, 99, 99);
+    font-size: 150%;
+    width: 18%;
+}
+.car_premium{
+    background-color: rgb(99, 99, 99);
+    font-size: 150%;
+    width: 18%;
+}
+.car_comfort{
     background-color: rgb(99, 99, 99);
     font-size: 150%;
     width: 18%;
