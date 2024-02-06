@@ -1,0 +1,13 @@
+.sos{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.sos1{
+
+    flex-direction: row;
+}
+.sos2{
+
+    flex-direction: row;
+}
