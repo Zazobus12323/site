@@ -103,7 +103,7 @@ input::placeholder {
 .information{
     display: flex;
     align-items: center;
-
+    color: aliceblue;
     font-size: 170%;
 }
 .cell{
@@ -135,4 +135,6 @@ input::placeholder {
 ul{
     list-style: none;
 }
-
+.phone{
+    background-color: rgb(0, 0, 0);
+}
