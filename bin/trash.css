@@ -1,3 +1,6 @@
+.head{
+    background-color: black;
+}
 .sos{
     display: flex;
     flex-direction:row;
