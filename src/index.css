@@ -187,3 +187,6 @@ body{
     display: flex;
     flex-direction: column;
 }
+.void{
+    height: 292px;
+}
