@@ -108,6 +108,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             buttonPremium.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonComfort.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonSUV.style.backgroundColor = 'rgb(99, 99, 99)'
+            products.innerHTML = ''
         }
     })
     buttonPremium.addEventListener('click', () =>{
@@ -117,6 +118,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             buttonPremium.style.backgroundColor = 'rgb(255, 255, 255)'
             buttonComfort.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonSUV.style.backgroundColor = 'rgb(99, 99, 99)'
+            products.innerHTML = ''
         }
     })
     buttonComfort.addEventListener('click', ()=>{
@@ -126,6 +128,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             buttonPremium.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonComfort.style.backgroundColor = 'rgb(255, 255, 255)'
             buttonSUV.style.backgroundColor = 'rgb(99, 99, 99)'
+            products.innerHTML = ''
         }
     })
 })
