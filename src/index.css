@@ -42,19 +42,25 @@
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 20%;
     padding: 2%;
+    width: 70%;
 }
 
 .right{
     display: flex;
     flex-direction: column;
-    margin: 5% 10%;
-    font-size: 130%;
+    margin: 6% 10%;
+    font-size: 150%;
+    align-items: baseline;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 20%;
+    padding: 2%;
 }
 
 .Up1{
     font-size: 120%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px
 }
 .Up2{
     font-size: 120%;
@@ -64,21 +70,35 @@
 input::placeholder {
     color: black;
 }
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ul1{
+    display: flex;
+    justify-content: center;
+}
+.myButtons{
+    width: 0;
+    height: 20px; 
+}
 .avtos{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .avtos1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
 }
 .avtos2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+}
+.avtos3{
+    display: flex;
+    flex-direction: column;
 }
 .information{
     display: flex;
