@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const buttonPremiumStyle = window.getComputedStyle(buttonPremium)
     const buttonComfort = document.querySelector('button[class="car_comfort"]')
     const buttonComfortStyle = window.getComputedStyle(buttonComfort)
+    const products = document.querySelector('div[class="product"]')
     buttonSUV.addEventListener('click', () => {
         if(buttonSUVStyle.getPropertyValue('background-color') === 'rgb(99, 99, 99)'){
             buttonSUV.style.backgroundColor = 'rgb(255, 255, 255)'
@@ -17,6 +18,42 @@ document.addEventListener('DOMContentLoaded', ()=>{
             buttonPremium.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonComfort.style.backgroundColor = 'rgb(99, 99, 99)'
             
+            products.innerHTML = `            <div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+
+        <div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+
+        <div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/blue_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+        </div>`
         }
 })
     buttonSportcar.addEventListener('click', ()=>{
@@ -26,6 +63,42 @@ document.addEventListener('DOMContentLoaded', ()=>{
             buttonPremium.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonComfort.style.backgroundColor = 'rgb(99, 99, 99)'
             buttonSUV.style.backgroundColor = 'rgb(99, 99, 99)'
+            products.innerHTML = `<div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+
+        <div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+
+        <div class="plan"></div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+            <div class="productSpisok">
+                <img src="./cars/white_car.png" class="product_pic">
+                <div class="product_name">somename</div>
+                <div class="product_info"><div class="p_p"><p>someinfo</p><p>someinfo</p></div> <div class="price">some price</div></div>
+            </div>
+        </div>`
         }
     })
     buttonBusiness.addEventListener('click', ()=>{
